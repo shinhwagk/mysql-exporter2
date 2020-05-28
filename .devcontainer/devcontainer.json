@@ -1,0 +1,14 @@
+{
+	"name": "prom-client",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	},
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash",
+	},
+	"extensions": [
+		"denoland.vscode-deno"
+	],
+	"appPort": "8000:8000"
+}

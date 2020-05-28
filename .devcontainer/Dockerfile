@@ -1,0 +1,1 @@
+FROM shinhwagk/deno:1.0.2
